@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="renderer" content="webkit">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>客服</title>
+  </head>
+  <style type="text/css">
+    html{
+      font-size:16px !important;
+    }
+   	/*水表*/
+   	.water-meter .editBox .el-dialog__body{
+   		padding: 0 30px;
+   		overflow: visible !important;
+   	}
+   	/*权限树表格样式*/
+   	.main-content .el-dialog--center .el-dialog__body .el-checkbox{
+   		width: initial;
+   	}
+   	.el-checkbox__input.is-checked+.el-checkbox__label{
+   		margin-right: 10px;
+   	}
+  </style>
+  <body>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+    <script>
+      localStorage.setItem('taken',window.location.search.substring(1));
+    </script>
+  </body>
+</html>
